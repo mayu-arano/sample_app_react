@@ -1,0 +1,25 @@
+.displayOrderArea {
+    
+    .displayOrderTurns {
+        margin-top: 10px;
+        &-input {
+            width: 9rem;
+        }
+    }
+    
+    .spaceLines {
+         &-input {
+            width: 9rem;
+         }
+    }
+    
+    .hideTimeAfterCooking {
+        .section-title {
+            line-height: 1.5;
+        }
+        &-input {
+            width: 4rem;
+            margin-right: 5px;
+        }
+    }
+}

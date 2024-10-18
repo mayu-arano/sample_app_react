@@ -1,0 +1,20 @@
+.dataClearArea {
+    .section.dataClearAreaContent{
+        margin-top: 10px;
+        width: 400px;
+        line-height: 2rem;
+    }
+}
+
+
+.dataClearAreaContent {  
+    &-btn{
+        padding: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: #fff;
+        color: #ff6000;
+        border: 1px solid rgb(131, 133, 135);
+        border-radius: 3px;
+    }
+}

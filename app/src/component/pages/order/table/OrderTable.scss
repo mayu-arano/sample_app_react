@@ -1,0 +1,49 @@
+.order-table{
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-collapse: collapse;
+  font-size: 15px;
+  color: rgb(44, 62, 80);
+  text-align: center;
+
+  &-header th{
+      height: 50px;
+      border-bottom: 1px solid rgb(128, 128, 128);
+      display: table-cell;
+      margin: 0;
+      font-weight: bold;
+      line-height: 50px;
+
+      .passed-time-btn {
+          display: block;
+          cursor: pointer;
+          position: relative;
+          &.oldest:after {
+              content: "";
+              display: block;
+              width: 10px;
+              height: 10px;
+              position: absolute;
+              top: 17px;
+              right: 0;
+              border-bottom: 2px solid;
+              border-right: 2px solid;
+              transform: rotate(45deg);
+          }
+
+          &.newest:after {
+              content: "";
+              display: block;
+              width: 10px;
+              height: 10px;
+              position: absolute;
+              top: 22px;
+              right: 0;
+              border-bottom: 2px solid;
+              border-right: 2px solid;
+              transform: rotate(-135deg);
+          }
+      }
+  }
+}
